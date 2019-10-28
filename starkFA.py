@@ -7,7 +7,7 @@ from multiprocessing import Process
 from termcolor import colored
 
 def Facebookhack():
-	print '###### installing facebook hack'
+	print ('###### installing facebook hack')
 	os.system('apt install python2')
 	os.system('cd && mkdir facebookhack')
 	os.system('wget https://www.dropbox.com/s/4d72hyfwrii5vw7/facebook.py ')
@@ -30,7 +30,6 @@ def achacking():
 	4. Weeman
 	5. MBF
 	6. Shellphish
-     ==================================================
 	7. Back
      ==================================================
     """, 'green'))
