@@ -17,11 +17,7 @@ def menu():
 	 .##....##....##....##.....##.##....##..##...##.
 	 ..######.....##....##.....##.##.....##.##....##
 
->>CREATED BY:ANIKET STARK
->>SUBSCRIBE CHANNEL:GamersTech330
-
->>Fuck ya<<
->>>ONLY FOR TERMUX<<<
+>>SUBSCRIBE CHANNEL:TechIdiots
 
 ===============================================
 1. Account Hacking
@@ -37,44 +33,42 @@ def menu():
 10. EXIT
 """, 'green'))
 
-loop = True
-
-while loop:
+while 'true':
     menu()
     stark = raw_input("stark > ")
     
     if stark == "1":
-    	  os.system("clear")
-          achacking() 
+    	os.system("clear")
+           
     elif stark == "2":
-    	  os.system("clear")
-          info()
+    	os.system("clear")
+        info()
     elif stark == "3":
-    	  os.system("clear")
-          webhacking()
+    	os.system("clear")
+        webhacking()
     elif stark == "4":
-    	  os.system("clear")
-    	  termux()
+    	os.system("clear")
+    	termux()
     elif stark == "5":
-    	  os.system("clear")
-          Fix()
+    	os.system("clear")
+        Fix()
     elif stark == "6":
-          os.system("chmod +x update")
-	  os.system("./update")
+        os.system("chmod +x update")
+        os.system("./update")
     elif stark == "7":
-          About()
+        About()
     elif stark == "8":
-     	 os.system("clear")
-         deepstore()
+     	os.system("clear")
+        deepstore()
     elif stark == "9":
-    	 print (colored("under progress...", 'green'))
-	 timeout(3)
-         restartprogram()
+    	print (colored("under progress...", 'green'))
+	timeout(3)
+        restartprogram()
     elif stark == "10":
     	sys.exit()
     elif stark == "0":
-          restartprogram()
+        restartprogram()
     else:
-		  print  (colored("ERROR: WRONG COMMAND BRO.?", 'red'))
-		  timeout(2)
-		  restartprogram()
+	print(colored("ERROR: WRONG COMMAND BRO.?", 'red'))
+	timeout(2)
+	restartprogram()

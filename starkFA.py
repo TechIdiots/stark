@@ -54,6 +54,6 @@ def achacking():
  elif acha == "0":
         restartprogram()
  else:
-	print(colored("ERROR: WRONG COMMAND BRO.?", 'red'))
+	print("ERROR: WRONG COMMAND BRO.?")
 	restartprogram()
 
